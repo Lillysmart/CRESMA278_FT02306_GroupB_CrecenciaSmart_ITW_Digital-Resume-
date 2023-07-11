@@ -1,3 +1,5 @@
+ body {border: 0px;
+     padding: 0px;}
  ul { list-style: none;
      position: sticky;
      display: flex;
@@ -10,3 +12,5 @@
 .nav-bar{background-color: rgb(233,237,201);
 border: 3px solid black;
 border-radius: 10px;}
+
+img { width: f;}
