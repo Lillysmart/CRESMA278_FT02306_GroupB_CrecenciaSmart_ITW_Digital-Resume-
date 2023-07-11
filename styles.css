@@ -1,6 +1,12 @@
-nav , ul { list-style: none;
+ ul { list-style: none;
+     position: sticky;
      display: flex;
      flex-direction: row;
      gap: 40px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items:}
+    
+
+.nav-bar{background-color: rgb(233,237,201);
+border: 3px solid black;
+border-radius: 10px;}
