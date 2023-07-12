@@ -66,6 +66,14 @@ width:200px;
 margin:4px;
 }
  #submit {width: 100px;
-background-color: rgb(255, 200, 221);}
-footer {background-color: rgb(255, 200, 221);}
+background-color: rgb(189, 224, 254);}
+footer {background-color: rgb(213, 213, 213);}
+
+form{ background-color:rgb(221, 187,189);
+width: 400px;
+border: 3px solid black;
+border-radius: 2%;
+margin-left: 200px ;}
+
+label{padding-left: 10px;}
 
