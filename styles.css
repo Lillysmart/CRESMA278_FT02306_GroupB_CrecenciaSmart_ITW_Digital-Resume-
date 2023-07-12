@@ -3,7 +3,8 @@
     }
 
 header {  background-color: papayawhip;
-height: 620px;}
+height: 620px;
+margin-bottom: 20px;}
 
 
 
@@ -39,10 +40,21 @@ margin-top: 20px;}
  
 
 #colspan1{ grid-column: 3/1;
-margin-top: 80px;}
+    margin-top: 80px;
+}
 
 h2{ padding-left: 550px;
-
-
+    font-style: oblique;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.sub-h3{ color :rgb(106, 105, 95 ) ;
+     font-style: italic ; 
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    
 hr { width: 300px;}
+ h3, .sub-h3{ margin: 10px;
+ ;}
+.list {margin: 10px;}
+main{margin-top: 40px;}
+
