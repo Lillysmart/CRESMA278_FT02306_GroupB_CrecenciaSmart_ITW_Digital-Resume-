@@ -36,10 +36,13 @@ margin-top: 20px;}
     margin-top: 30px;
     
    }
- h1{ font-family: ;}  
+ 
 
 #colspan1{ grid-column: 3/1;
 margin-top: 80px;}
 
-#qualification{ padding-left: 500px;
+h2{ padding-left: 550px;
+
+
 }
+hr { width: 300px;}
