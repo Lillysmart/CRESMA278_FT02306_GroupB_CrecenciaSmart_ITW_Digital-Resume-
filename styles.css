@@ -66,14 +66,22 @@ width:200px;
 margin:4px;
 }
  #submit {width: 100px;
+    margin-left: 130px;
+    text-align: center;
 background-color: rgb(189, 224, 254);}
 footer {background-color: rgb(213, 213, 213);}
 
 form{ background-color:rgb(221, 187,189);
 width: 400px;
 border: 3px solid black;
-border-radius: 2%;
+border-radius: 4%;
 margin-left: 200px ;}
+textarea{margin-left: 10px;}
 
-label{padding-left: 10px;}
+label {padding-left: 10px; 
+}
+
+#top-of-form { padding-left: 300px;}
+
+
 
