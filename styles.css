@@ -86,8 +86,16 @@ label {padding-left: 10px;
 #github-logo{ width: 20px; height:}
 
 .last-info{ border: 3px solid black; 
-margin: 10px;}
+margin: 10px;
+width: 200px;
+background-color: aliceblue;
+position: relative;
+right: 20px ;
+border-radius: 20px;}
+
 .last-links { padding-left: 20px;}
+#form-contact{ display:flex;
+position:;}
 
 
 
