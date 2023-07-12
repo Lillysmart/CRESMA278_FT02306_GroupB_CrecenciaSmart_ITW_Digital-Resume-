@@ -82,7 +82,12 @@ label {padding-left: 10px;
 }
 
 #top-of-form { padding-left: 300px;}
-#github-logo{ width: 20px; height: ;}
+
+#github-logo{ width: 20px; height:}
+
+.last-info{ border: 3px solid black; 
+margin: 10px;}
+.last-links { padding-left: 20px;}
 
 
 
