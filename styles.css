@@ -61,9 +61,11 @@ label{
     width:100px;
     }
 
-.submit {width: 100px;}
 input{
 width:200px;
-margin:1px auto;
+margin:4px;
 }
+ #submit {width: 100px;
+background-color: rgb(255, 200, 221);}
+footer {background-color: rgb(255, 200, 221);}
 
