@@ -92,36 +92,40 @@ footer {background-color: rgb(213, 213, 213);}
 form{ background-color:rgb(221, 187,189);
 width: 400px;
 border: 3px solid black;
-border-right: none;
+border-bottom: none;
 border-radius: 7%;
-margin-left: 200px ;}
+margin-left: 100px ;}
 textarea{margin-left: 10px;}
 
 label {padding-left: 10px; 
 }
+.top-of-form { padding-left: 200px;}
 
-#top-of-form { padding-left: 300px;}
-
-#github-logo{ width: 20px; height:}
+#github-logo{ width: 20px;}
+#top-of-links{margin-left: 100px;}
 
 .last-info{ border: 3px solid black; 
-    border-left: none;
-margin: 10px;
-width: 200px;
+    border-top: none;
+margin-left: 110px;
+width: 440px;
+height: 100px;
 background-color: aliceblue;
 position: relative;
 right: 30px ;
-border-radius: 7%;}
+border-radius: 50%;}
 
-.last-links { padding-left: 20px;
+.last-links {
+
+    margin-left: 60px;
 text-decoration: none;}
-#form-contact{ display:flex;}
+#form-contact{ display:flex;
+flex-direction: column;}
 
 /*mobile*/
 @media only screen and (max-width: 600px){
 .nav-bar{width: 300px;
     gap: 1px;
-font-size: 10px;
+font-size: 14px;
 padding: 2px;
 margin: 10px;}
 
@@ -129,7 +133,7 @@ margin: 10px;}
     margin-top: 10px};
 
 
-.hero{height:400px;
+.hero{
 background-size: cover ;}
 #colspan1{grid-column: 1/2;
 
@@ -142,12 +146,22 @@ padding-left: 100px;}
 width: 100px;
 }
 
-h3{ padding-left:40px ;
+h3  { padding-left:10px ;
 font-size: 15px;}
 p{ font-size: 14px;}
-.list{font-size: 14px;}
-.sub-h3 {font-size: 12px;
-padding-left: 40px;}
 
+.list{font-size: 14px;
+margin-left: 0px;}
+.sub-h3 {font-size: 12px;
+padding-left: 10px;}
+
+form  {margin-left: 0px;}
+
+
+
+
+.top-of-form { padding-left: 0px;}
+#form-contact{flex-direction: column;}
+.last-info{margin-left: 0px;}
 }
 
