@@ -3,12 +3,12 @@
     }
 
 header {  background-color: papayawhip;
-height: 620px;
+height: 560px;
 margin-bottom: 20px;}
 
 
 
-.nav-bar{background-color: white;
+.nav-bar{background-color: lavender;
 border: 3px solid black;
 border-radius: 10px;
 list-style: none;
@@ -17,6 +17,7 @@ list-style: none;
      gap: 40px;
     justify-content: space-evenly;
     margin-top: 0px;
+    margin-right: 10px;
  }
  .nav-bar a { text-decoration: none;}
 
@@ -24,11 +25,11 @@ list-style: none;
     padding: 0px;
     position:fixed;
 top: 0px;
-width: 100%;
+width:100%;
 }
 
 img {border: 100px;
-margin-top: 20px;}
+margin-top: 30px;}
  .hero{ display: grid;
     grid-template-columns:2fr 1fr 3fr;
     grid-template-rows: 2fr 1fr 3fr ;
@@ -40,7 +41,7 @@ margin-top: 20px;}
  
 
 #colspan1{ grid-column: 3/1;
-    margin-top: 80px;
+    margin-top:  90px;
 }
 
 h2{ padding-left: 550px;
@@ -74,7 +75,8 @@ footer {background-color: rgb(213, 213, 213);}
 form{ background-color:rgb(221, 187,189);
 width: 400px;
 border: 3px solid black;
-border-radius: 4%;
+border-right: none;
+border-radius: 7%;
 margin-left: 200px ;}
 textarea{margin-left: 10px;}
 
@@ -86,16 +88,25 @@ label {padding-left: 10px;
 #github-logo{ width: 20px; height:}
 
 .last-info{ border: 3px solid black; 
+    border-left: none;
 margin: 10px;
 width: 200px;
 background-color: aliceblue;
 position: relative;
-right: 20px ;
-border-radius: 20px;}
+right: 30px ;
+border-radius: 7%;}
 
-.last-links { padding-left: 20px;}
-#form-contact{ display:flex;
-position:;}
+.last-links { padding-left: 20px;
+text-decoration: none;}
+#form-contact{ display:flex;}
+
+@media only screen and (max-width: 600px){
+    img{size-adjust:100% 100%;}
+
+}
+    
+
+
 
 
 
