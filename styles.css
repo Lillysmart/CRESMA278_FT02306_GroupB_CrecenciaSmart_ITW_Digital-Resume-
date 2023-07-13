@@ -100,13 +100,26 @@ border-radius: 7%;}
 text-decoration: none;}
 #form-contact{ display:flex;}
 
+/*mobile*/
 @media only screen and (max-width: 600px){
-    img{size-adjust:100% 100%;}
+.nav-bar{width: 330px;
+font-size: 10px;
+padding: 3px;
+margin: 6px;}
+#colspan1{margin:10px;
+font-size: 14px;
+}
+header{ height: 300px;
+}
+h2{font-size: 16px ;
+padding-left: 100px;}
+
+h3{ padding-left:40px ;
+font-size: 15px;}
+p{ font-size: 14px;}
+.list{font-size: 14px;}
+.sub-h3 {font-size: 12px;
+padding-left: 40px;}
 
 }
-    
-
-
-
-
 
