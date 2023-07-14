@@ -1,4 +1,6 @@
- body {border: 0px;
+
+/*Laptop screen*/
+body {border: 0px;
     padding: 0px;
     }
 
@@ -13,7 +15,6 @@ margin-bottom: 20px;}
 
 .nav-bar{background-color: lavender;
 border: 3px solid black;
-border-bottom: ;
 border-radius: 10px;
 list-style: none;
      display: flex;
@@ -67,9 +68,8 @@ h2{ padding-left: 550px;
      font-style: italic ; 
          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
     
-hr { width :300px
- 
-  }
+
+
 
 
 .list {margin-left: 40px;}
@@ -116,22 +116,21 @@ border-radius: 50%;}
 
 .last-links {
 
-    margin-left: 60px;
+    margin-left: 35px;
 text-decoration: none;}
 #form-contact{ display:flex;
 flex-direction: column;}
 
 /*mobile*/
 @media only screen and (max-width: 600px){
-.nav-bar{width: 300px;
+.nav-bar{width: 400px;;
     gap: 1px;
 font-size: 14px;
-padding: 2px;
-margin: 10px;}
+padding: 0px;
+margin: 0px;}
 
 .info{
     margin-top: 10px};
-
 
 .hero{
 background-size: cover ;}
@@ -164,4 +163,27 @@ form  {margin-left: 0px;}
 #form-contact{flex-direction: column;}
 .last-info{margin-left: 0px;}
 }
+/*Tablet*/
+@media only screen and  (min-width:700px) and (max-width:1020px) {
+    .nav-bar{width: fit-content;
+   padding: 1px;
+   border: none;
+}
+nav {padding-left: 100px;}
+#my-photo{padding-left: 320px;
+}
+.info {display:grid;
+    grid-template-columns: repeat(1,2fr 3fr 1fr);
+    grid-template-rows:repeat(3,1fr) ;
+    margin: 10px;
+    margin-top: 0px;}
 
+#colspan1{padding-left: 90px;
+    margin-top: 10px;
+    font-size: 14px;}
+
+    h3  { padding-left:10px ;
+        }   
+        h2{
+            padding-left: 100px;}
+}
