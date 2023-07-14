@@ -147,6 +147,8 @@ label {
   margin-left: 35px;
   text-decoration: none;
 }
+.last-links:hover{background-color:rgb(116, 230, 251);}
+
 #form-contact {
   display: flex;
   flex-direction: column;
