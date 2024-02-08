@@ -41,8 +41,10 @@ nav {
 
 #my-photo {
   width: 250px;
-  margin-top: 100px;
-  padding-left: 560px;
+  margin: 20px auto; /* Centering vertically and setting top margin */
+  border-radius: 50%; /* To make it circular */
+  display: block; /* Ensuring it behaves like a block element */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adding a subtle shadow */
 }
 
 .info {
@@ -55,7 +57,6 @@ nav {
 
 #colspan1 {
   grid-column: 2/3;
-
 }
 
 #colspan2 {
@@ -93,10 +94,12 @@ label {
   width: 100px;
 }
 
-input {
+input,
+textarea {
   width: 200px;
   margin: 4px;
 }
+
 #submit {
   width: 100px;
   margin-left: 130px;
@@ -104,12 +107,12 @@ input {
   background-color: #444; /* Dark grey button background color */
   color: #ddd; /* Light grey button text color */
 }
+
 footer {
   margin-top: 40px;
   background-color: #333; /* Dark grey footer background color */
   color: #ccc; /* Light grey footer text color */
 }
-
 form {
   background-color: #555; /* Dark grey form background color */
   width: 400px;
@@ -118,6 +121,7 @@ form {
   border-radius: 7%;
   margin-left: 100px;
 }
+
 textarea {
   margin-left: 10px;
 }
@@ -125,6 +129,11 @@ textarea {
 label {
   padding-left: 10px;
 }
+
+.top-of-form {
+  padding-left: 200px;
+}
+
 .top-of-form {
   padding-left: 200px;
 }
@@ -132,6 +141,7 @@ label {
 #github-logo {
   width: 20px;
 }
+
 #top-of-links {
   margin-left: 100px;
 }
@@ -153,6 +163,7 @@ label {
   text-decoration: none;
   color: #ccc; /* Light grey link color */
 }
+
 .last-links:hover {
   background-color: #aaa; /* Light grey background color on hover */
 }
