@@ -1,4 +1,4 @@
-/*Laptop screen*/
+/* Laptop screen */
 body {
   border: 0px;
   padding: 0px;
@@ -14,7 +14,7 @@ body {
 }
 
 .nav-bar {
-  background-color: lavender;
+  background-color: #333;
   border: 3px solid black;
   border-radius: 10px;
   list-style: none;
@@ -26,10 +26,11 @@ body {
 }
 .nav-bar a {
   text-decoration: none;
+  color: #ccc; /* Grey text color */
 }
 nav a:hover {
   background-color: black;
-  color: rgb(221, 203, 203);
+  color: #ddd; /* Light grey text color on hover */
 }
 nav {
   padding: 0px;
@@ -37,6 +38,7 @@ nav {
   top: 0px;
   width: 100%;
 }
+
 #my-photo {
   width: 250px;
   margin-top: 100px;
@@ -53,7 +55,7 @@ nav {
 
 #colspan1 {
   grid-column: 2/3;
-  margin-top: 0px;
+
 }
 
 #colspan2 {
@@ -64,6 +66,7 @@ h2 {
   padding-left: 550px;
   font-style: oblique;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #222; /* Blackish text color */
 }
 
 h3,
@@ -72,7 +75,7 @@ h3,
   margin-left: 30px;
 }
 .sub-h3 {
-  color: rgb(106, 105, 95);
+  color: #555; /* Dark grey text color */
 
   font-style: italic;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -98,15 +101,17 @@ input {
   width: 100px;
   margin-left: 130px;
   text-align: center;
-  background-color: rgb(189, 224, 254);
+  background-color: #444; /* Dark grey button background color */
+  color: #ddd; /* Light grey button text color */
 }
 footer {
   margin-top: 40px;
-  background-color: rgb(213, 213, 213);
+  background-color: #333; /* Dark grey footer background color */
+  color: #ccc; /* Light grey footer text color */
 }
 
 form {
-  background-color: rgb(221, 187, 189);
+  background-color: #555; /* Dark grey form background color */
   width: 400px;
   border: 3px solid black;
   border-bottom: none;
@@ -137,7 +142,7 @@ label {
   margin-left: 110px;
   width: 440px;
   height: 100px;
-  background-color: aliceblue;
+  background-color: #666; /* Dark grey background color */
   position: relative;
   right: 30px;
   border-radius: 50%;
@@ -146,9 +151,10 @@ label {
 .last-links {
   margin-left: 35px;
   text-decoration: none;
+  color: #ccc; /* Light grey link color */
 }
 .last-links:hover {
-  background-color: rgb(116, 230, 251);
+  background-color: #aaa; /* Light grey background color on hover */
 }
 
 #form-contact {
@@ -156,7 +162,7 @@ label {
   flex-direction: column;
 }
 
-/*mobile*/
+/* Mobile */
 @media only screen and (max-width: 600px) {
   .nav-bar {
     width: 400px;
@@ -227,7 +233,8 @@ label {
     margin-left: 0px;
   }
 }
-/*Tablet*/
+
+/* Tablet */
 @media only screen and (min-width: 700px) and (max-width: 1020px) {
   .nav-bar {
     width: fit-content;
