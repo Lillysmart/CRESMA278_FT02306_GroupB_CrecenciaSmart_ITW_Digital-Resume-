@@ -13,6 +13,14 @@ This is a project for practicing my web Knowledge.
 
 I did it to show my future employers the skills I acquired at Codespace .
 
+DEPLOYMENT ?🤔
+- 
+This Web App is deployed on https://lillly222indexhtml.netlify.app/
+
+
+
+
+
 
 
 
